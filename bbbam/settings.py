@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # OWN
     'website',
-
+    'users.apps.UsersConfig',
+    'contabilita',
 ]
 
 MIDDLEWARE = [
